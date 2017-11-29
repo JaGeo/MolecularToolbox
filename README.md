@@ -16,5 +16,5 @@ Information about the Author
 - J. George (RWTH Aachen University)
 - PI during the development of the code: [R. Dronskowski, RWTH Aachen University](http://www.ssc.rwth-aachen.de/)
 
-Have a look at our project website for the calculation of thermal ellipsoids: [www.ellipsoids.de](www.ellipsoids.de)!
+Have a look at our project website for the calculation of thermal ellipsoids: [www.ellipsoids.de](http://www.ellipsoids.de)!
 
