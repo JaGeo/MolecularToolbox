@@ -26,7 +26,6 @@ classdef UcartWorker<Worker
                 for AtomCounter=1:obj.NumberOfAllAtoms
                     Ucart=obj.ReaderToMatrix(AtomCounter,TemperatureCounter);
                     UcartOutputPerTemperature(:,:,AtomCounter)=Ucart;
-                    
                 end
                 UcartOutput(:,:,:,TemperatureCounter)=UcartOutputPerTemperature;
                 
@@ -61,9 +60,7 @@ classdef UcartWorker<Worker
                   
                   Ucart=obj.ReaderToMatrix(AtomCounter,TemperatureCounter);
                   Ustar=(inv(obj.Vector))*Ucart*((inv(obj.Vector))');
-                         
                   Bcif=((inv(N))*Ustar*(inv(N))')*(8*pi^2);
-                  
                   BcifOutputPerTemperature(:,:,AtomCounter)=Bcif;
                     
                 end

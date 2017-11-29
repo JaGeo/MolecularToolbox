@@ -7,7 +7,7 @@
     <param.summary>This toolbox can convert ADPs calculated with Phonopy to different ADP parametrizations.</param.summary>
     <param.description />
     <param.screenshot />
-    <param.version>1.0.1</param.version>
+    <param.version>1.0.2</param.version>
     <param.output>${PROJECT_ROOT}/Molecular-Toolbox.mltbx</param.output>
     <param.products.name />
     <param.products.id />
@@ -46,10 +46,10 @@
       <file>${PROJECT_ROOT}/MolecularToolbox/ADPReaderFromFile.m</file>
       <file>${PROJECT_ROOT}/MolecularToolbox/Bcifworker.m</file>
       <file>${PROJECT_ROOT}/MolecularToolbox/BetasWorker.m</file>
-      <file>${PROJECT_ROOT}/MolecularToolbox/ConvertADPsfromPhonopy.m</file>
       <file>${PROJECT_ROOT}/MolecularToolbox/FromBcifwriter.m</file>
       <file>${PROJECT_ROOT}/MolecularToolbox/FromBetaswriter.m</file>
       <file>${PROJECT_ROOT}/MolecularToolbox/FromPhonopywriter.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/FromUcartwriter.m</file>
       <file>${PROJECT_ROOT}/MolecularToolbox/FromUcifwriter.m</file>
       <file>${PROJECT_ROOT}/MolecularToolbox/FromUstarwriter.m</file>
       <file>${PROJECT_ROOT}/MolecularToolbox/GeneralWriter.m</file>
@@ -69,7 +69,6 @@
       <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/ADPReaderFromFile.m</file>
       <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/Bcifworker.m</file>
       <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/BetasWorker.m</file>
-      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/FromPhonopywriter.m</file>
       <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/GeneralWriter.m</file>
       <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/POSCAR.m</file>
       <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/PhonopyADPs.m</file>

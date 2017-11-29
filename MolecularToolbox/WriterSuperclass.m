@@ -3,8 +3,8 @@ classdef WriterSuperclass
     properties(Constant)
 
     %Header-Text
-    NameOfProgram='Molecular-Toolbox 1.0.1';
-    header='Code written and copyrighted by Janine George (2015-2016)';
+    NameOfProgram='Molecular-Toolbox 1.0.2';
+    header='Code written and copyrighted by Janine George (2015-2017)';
   
     end
     
