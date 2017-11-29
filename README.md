@@ -1,9 +1,13 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://github.com/JaGeo/AtomicContributions/blob/master/LICENSE)
 
 # MolecularToolbox
-This software is able to convert ADPs between different formats, to calculate their as main-axis components and to convert VASP and PHONOPY output.
 
-Have a look at Doc/Documentation.pdf for an introduction to the program.
+Features of the Toolbox
+----------
+1. Conversion of Anisotropic Displacement Parameters to Different Parametrizations
+2. Calculation of the Root-Mean-Square of the Cartesian Displacements
+
+Have a look at [Doc/Documentation.pdf](https://github.com/JaGeo/MolecularToolbox/blob/master/Doc/Documentation.pdf) for an introduction to the program.
 
 What to cite
 ----------
