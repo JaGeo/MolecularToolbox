@@ -3,7 +3,7 @@
 # MolecularToolbox
 This software is able to convert ADPs between different formats, to calculate their as main-axis components and to convert VASP and PHONOPY output.
 
-Have a look at Doc/Documentation.pdf for an overview over the program.
+Have a look at Doc/Documentation.pdf for an introduction to the program.
 
 What to cite
 ----------
