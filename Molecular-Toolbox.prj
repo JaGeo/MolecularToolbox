@@ -1,0 +1,134 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration build-checksum="3136197497" file="/home/jgeorge/Promotion/Programmierprojekt/Git/Molecular-Toolbox.prj" location="/home/jgeorge/Promotion/Programmierprojekt/Git" name="Molecular-Toolbox" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>Molecular-Toolbox</param.appname>
+    <param.authnamewatermark>Janine George</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary>This toolbox can convert ADPs calculated with Phonopy to different ADP parametrizations.</param.summary>
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0.2</param.version>
+    <param.output>${PROJECT_ROOT}/Molecular-Toolbox.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>72961fcb-fc9f-415e-b099-048bbd4154c1</param.guid>
+    <param.exclude.filters />
+    <param.examples />
+    <param.demosxml />
+    <param.apps />
+    <param.docs />
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <unset>
+      <param.email />
+      <param.company />
+      <param.description />
+      <param.screenshot />
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.exclude.filters />
+      <param.examples />
+      <param.demosxml />
+      <param.apps />
+      <param.docs />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}/MolecularToolbox</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}/MolecularToolbox/ADPReaderFromFile.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/Bcifworker.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/BetasWorker.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/FromBcifwriter.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/FromBetaswriter.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/FromPhonopywriter.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/FromUcartwriter.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/FromUcifwriter.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/FromUstarwriter.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/GeneralWriter.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/LICENSE</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/POSCAR.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/PhonopyADPs.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/RMS.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/StructureReader.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/StructureReaderDirect.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/UcartWorker.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/UcifWorker.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/UstarWorker.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/Worker.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/WriterSuperclass.m</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/ADPReaderFromFile.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/Bcifworker.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/BetasWorker.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/GeneralWriter.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/POSCAR.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/PhonopyADPs.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/StructureReader.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/StructureReaderDirect.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/UcartWorker.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/UcifWorker.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/UstarWorker.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/Worker.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/WriterSuperclass.m</file>
+    </fileset.depfun.included>
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/home/jgeorge/Promotion/Programmierprojekt/Git" name="Molecular-Toolbox.mltbx" optional="false">/home/jgeorge/Promotion/Programmierprojekt/Git/Molecular-Toolbox.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/usr/local/MATLAB/R2016b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>4.4.0-87-generic</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Features of the Toolbox}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{What to cite?}{}% 3
+\BOOKMARK [1][-]{section.3}{Getting Started}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Install the MATLAB Toolbox}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Run the Scripts}{section.3}% 6
+\BOOKMARK [3][-]{subsubsection.3.2.1}{ADPs: Starting from Phonopy Output}{subsection.3.2}% 7
+\BOOKMARK [3][-]{subsubsection.3.2.2}{ADPs: Starting from Ucif, B, \040and U*}{subsection.3.2}% 8
+\BOOKMARK [3][-]{subsubsection.3.2.3}{RMS of the Cartesian Displacements}{subsection.3.2}% 9
+\BOOKMARK [1][-]{section.4}{Requirements for the INPUT files}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{POSCAR}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.2}{thermal\137displacement\137matrices.yaml}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.3}{Reading in Ucif, U*, B, , Ucart}{section.4}% 13
+\BOOKMARK [1][-]{section.5}{Output files}{}% 14
+\BOOKMARK [2][-]{subsection.5.1}{ADPs: Starting from Phonopy Output}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.2}{ADPs: Starting from Ucif, B, , U* and Ucart}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.3}{RMS of the Cartesian Displacements}{section.5}% 17
+\BOOKMARK [1][-]{section.6}{Version history}{}% 18
+\BOOKMARK [1][-]{section.7}{License of the Molecular Toolbox: BSD 3-Clause License}{}% 19

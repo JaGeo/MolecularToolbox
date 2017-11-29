@@ -1,0 +1,29 @@
+Molecular-Toolbox 1.0.2
+Code written and copyrighted by Janine George (2015-2017)
+----------------------------------------
+RMS between the following files:
+ CONTCAR.neu POSCAR.start
+----------------------------------------
+RMS (George et al.): 0.044954 
+RMS (van de Streek and Neumann): 0.044954 
+RMSxyz (George et al.) : 0.015869 0.030220 0.029254
+----------------------------------------
+----------------------------------------
+RMS per atom type:
+----------------------------------------
+Atom name Os
+RMS (George et al.): 0.027024 
+RMSxyz (George et al.): 0.015856 0.020301 0.008172
+----------------------------------------
+Atom name C
+RMS (George et al.): 0.039463 
+RMSxyz (George et al.): 0.015731 0.027515 0.023512
+----------------------------------------
+Atom name O
+RMS (George et al.): 0.057162 
+RMSxyz (George et al.): 0.017023 0.039015 0.038151
+----------------------------------------
+Atom name H
+RMS (George et al.): 0.036495 
+RMSxyz (George et al.): 0.013679 0.018337 0.028435
+----------------------------------------
