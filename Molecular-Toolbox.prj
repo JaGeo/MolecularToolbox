@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration build-checksum="4231925165" file="/home/jgeorge/Promotion/Programmierprojekt/Git/Molecular-Toolbox.prj" location="/home/jgeorge/Promotion/Programmierprojekt/Git" name="Molecular-Toolbox" target="target.toolbox" target-name="Package Toolbox">
+  <configuration build-checksum="3136197497" file="/home/jgeorge/Promotion/Programmierprojekt/Git/Molecular-Toolbox.prj" location="/home/jgeorge/Promotion/Programmierprojekt/Git" name="Molecular-Toolbox" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>Molecular-Toolbox</param.appname>
     <param.authnamewatermark>Janine George</param.authnamewatermark>
     <param.email />
@@ -7,22 +7,15 @@
     <param.summary>This toolbox can convert ADPs calculated with Phonopy to different ADP parametrizations.</param.summary>
     <param.description />
     <param.screenshot />
-    <param.version>1.0.0</param.version>
+    <param.version>1.0.1</param.version>
     <param.output>${PROJECT_ROOT}/Molecular-Toolbox.mltbx</param.output>
-    <param.products.name>
-      <item>MATLAB</item>
-    </param.products.name>
-    <param.products.id>
-      <item>1</item>
-    </param.products.id>
-    <param.products.version>
-      <item>8.6</item>
-    </param.products.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
     <param.platforms />
     <param.guid>72961fcb-fc9f-415e-b099-048bbd4154c1</param.guid>
     <param.exclude.filters />
-    <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;examples/&gt;</param.examples>
+    <param.examples />
     <param.demosxml />
     <param.apps />
     <param.docs />
@@ -34,8 +27,12 @@
       <param.description />
       <param.screenshot />
       <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
       <param.platforms />
       <param.exclude.filters />
+      <param.examples />
       <param.demosxml />
       <param.apps />
       <param.docs />
@@ -43,31 +40,47 @@
       <param.javaclasspath.excludes />
     </unset>
     <fileset.rootdir>
-      <file>${PROJECT_ROOT}/package</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox</file>
     </fileset.rootdir>
     <fileset.rootfiles>
-      <file>${PROJECT_ROOT}/package/ADPReaderFromFile.m</file>
-      <file>${PROJECT_ROOT}/package/Bcifworker.m</file>
-      <file>${PROJECT_ROOT}/package/BetasWorker.m</file>
-      <file>${PROJECT_ROOT}/package/FromBcifwriter.m</file>
-      <file>${PROJECT_ROOT}/package/FromBetaswriter.m</file>
-      <file>${PROJECT_ROOT}/package/FromPhonopywriter.m</file>
-      <file>${PROJECT_ROOT}/package/FromUcifwriter.m</file>
-      <file>${PROJECT_ROOT}/package/FromUstarwriter.m</file>
-      <file>${PROJECT_ROOT}/package/GeneralWriter.m</file>
-      <file>${PROJECT_ROOT}/package/License</file>
-      <file>${PROJECT_ROOT}/package/POSCAR.m</file>
-      <file>${PROJECT_ROOT}/package/PhonopyADPs.m</file>
-      <file>${PROJECT_ROOT}/package/RMS.m</file>
-      <file>${PROJECT_ROOT}/package/StructureReader.m</file>
-      <file>${PROJECT_ROOT}/package/StructureReaderDirect.m</file>
-      <file>${PROJECT_ROOT}/package/UcartWorker.m</file>
-      <file>${PROJECT_ROOT}/package/UcifWorker.m</file>
-      <file>${PROJECT_ROOT}/package/UstarWorker.m</file>
-      <file>${PROJECT_ROOT}/package/Worker.m</file>
-      <file>${PROJECT_ROOT}/package/WriterSuperclass.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/ADPReaderFromFile.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/Bcifworker.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/BetasWorker.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/ConvertADPsfromPhonopy.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/FromBcifwriter.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/FromBetaswriter.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/FromPhonopywriter.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/FromUcifwriter.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/FromUstarwriter.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/GeneralWriter.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/LICENSE</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/POSCAR.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/PhonopyADPs.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/RMS.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/StructureReader.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/StructureReaderDirect.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/UcartWorker.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/UcifWorker.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/UstarWorker.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/Worker.m</file>
+      <file>${PROJECT_ROOT}/MolecularToolbox/WriterSuperclass.m</file>
     </fileset.rootfiles>
-    <fileset.depfun.included />
+    <fileset.depfun.included>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/ADPReaderFromFile.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/Bcifworker.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/BetasWorker.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/FromPhonopywriter.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/GeneralWriter.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/POSCAR.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/PhonopyADPs.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/StructureReader.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/StructureReaderDirect.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/UcartWorker.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/UcifWorker.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/UstarWorker.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/Worker.m</file>
+      <file>/home/jgeorge/Documents/MATLAB/Add-Ons/Toolboxes/Molecular-Toolbox/code/WriterSuperclass.m</file>
+    </fileset.depfun.included>
     <fileset.depfun.excluded />
     <fileset.package />
     <build-deliverables>
