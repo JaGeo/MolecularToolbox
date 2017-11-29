@@ -1,0 +1,122 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration build-checksum="4231925165" file="/home/jgeorge/Promotion/Programmierprojekt/Git/Molecular-Toolbox.prj" location="/home/jgeorge/Promotion/Programmierprojekt/Git" name="Molecular-Toolbox" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>Molecular-Toolbox</param.appname>
+    <param.authnamewatermark>Janine George</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary>This toolbox can convert ADPs calculated with Phonopy to different ADP parametrizations.</param.summary>
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0.0</param.version>
+    <param.output>${PROJECT_ROOT}/Molecular-Toolbox.mltbx</param.output>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>8.6</item>
+    </param.products.version>
+    <param.platforms />
+    <param.guid>72961fcb-fc9f-415e-b099-048bbd4154c1</param.guid>
+    <param.exclude.filters />
+    <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;examples/&gt;</param.examples>
+    <param.demosxml />
+    <param.apps />
+    <param.docs />
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <unset>
+      <param.email />
+      <param.company />
+      <param.description />
+      <param.screenshot />
+      <param.output />
+      <param.platforms />
+      <param.exclude.filters />
+      <param.demosxml />
+      <param.apps />
+      <param.docs />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}/package</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}/package/ADPReaderFromFile.m</file>
+      <file>${PROJECT_ROOT}/package/Bcifworker.m</file>
+      <file>${PROJECT_ROOT}/package/BetasWorker.m</file>
+      <file>${PROJECT_ROOT}/package/FromBcifwriter.m</file>
+      <file>${PROJECT_ROOT}/package/FromBetaswriter.m</file>
+      <file>${PROJECT_ROOT}/package/FromPhonopywriter.m</file>
+      <file>${PROJECT_ROOT}/package/FromUcifwriter.m</file>
+      <file>${PROJECT_ROOT}/package/FromUstarwriter.m</file>
+      <file>${PROJECT_ROOT}/package/GeneralWriter.m</file>
+      <file>${PROJECT_ROOT}/package/License</file>
+      <file>${PROJECT_ROOT}/package/POSCAR.m</file>
+      <file>${PROJECT_ROOT}/package/PhonopyADPs.m</file>
+      <file>${PROJECT_ROOT}/package/RMS.m</file>
+      <file>${PROJECT_ROOT}/package/StructureReader.m</file>
+      <file>${PROJECT_ROOT}/package/StructureReaderDirect.m</file>
+      <file>${PROJECT_ROOT}/package/UcartWorker.m</file>
+      <file>${PROJECT_ROOT}/package/UcifWorker.m</file>
+      <file>${PROJECT_ROOT}/package/UstarWorker.m</file>
+      <file>${PROJECT_ROOT}/package/Worker.m</file>
+      <file>${PROJECT_ROOT}/package/WriterSuperclass.m</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/home/jgeorge/Promotion/Programmierprojekt/Git" name="Molecular-Toolbox.mltbx" optional="false">/home/jgeorge/Promotion/Programmierprojekt/Git/Molecular-Toolbox.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/usr/local/MATLAB/R2016b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>4.4.0-87-generic</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
