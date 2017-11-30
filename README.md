@@ -9,8 +9,6 @@ Features of the Toolbox
 2. Calculation of the Root-Mean-Square of the Cartesian Displacements
 <img src="https://github.com/JaGeo/MolecularToolbox/blob/master/Doc/Piktogramm-02.png" width="40%" height="40%">
 
-Have a look at [Doc/Documentation.pdf](https://github.com/JaGeo/MolecularToolbox/blob/master/Doc/Documentation.pdf) for an introduction to the use of the program.
-
 
 How to install the MATLAB Toolbox
 -------------
@@ -30,7 +28,7 @@ How to use the scripts
 - Adapt the filenames and temperatures in the scripts (names for **POSCAR** files and **thermal_displacement_matrices.yaml**)
 - Run the scripts within the Matlab GUI or in the shell by typing:
   `matlab -nodisplay < NameOfTheScript.m`
-
+- Have a look at [Doc/Documentation.pdf](https://github.com/JaGeo/MolecularToolbox/blob/master/Doc/Documentation.pdf) for more details.
 
 What to cite
 ----------
