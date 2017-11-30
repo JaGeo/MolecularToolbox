@@ -74,6 +74,11 @@ Versions
                       ADP transformation starting from Ucart$ is included    
 
 
+Todo
+----
+- Make choice of temperatures in ADP conversion more freely
+
+
 Information about the Author
 --------
 
