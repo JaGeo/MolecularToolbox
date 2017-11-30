@@ -27,7 +27,7 @@ How to install the MATLAB Toolbox
 How to use the scripts
 ----------------------
 - Download a script from the **Example** folder (choose according to task)
-- Adapt the filenames and temperatures in the scripts (names for *POSCAR* files and *thermal_displacement_matrices.yaml*)
+- Adapt the filenames and temperatures in the scripts (names for **POSCAR** files and **thermal_displacement_matrices.yaml**)
 - Run the scripts within the Matlab GUI or in the shell by typing:
   `matlab -nodisplay < NameOfTheScript.m`
 
