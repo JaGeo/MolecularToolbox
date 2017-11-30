@@ -11,6 +11,20 @@ Features of the Toolbox
 
 Have a look at [Doc/Documentation.pdf](https://github.com/JaGeo/MolecularToolbox/blob/master/Doc/Documentation.pdf) for an introduction to the use of the program.
 
+
+How to install the MATLAB Toolbox
+-------------
+
+- Open your MATLAB. Please use version 2015a or newer.
+- Browse with MATLAB's explorer to the folder with the Molecular-Toolbox files.
+- Double click on the **Molecular-Toolbox.mltbx**-file.
+- Click **Install**.
+- Check whether the Molecular-Toolbox is correctly installed. 
+- This is done by going to the **Home** tab, then switching to the **Environment** section, clicking on the **Add-Ons** icon and finally selecting **Manage Add-Ons**.
+- Run the scripts within the Matlab GUI or in the shell by typing: *matlab -nodisplay < NameOfTheScript.m*
+
+
+
 What to cite
 ----------
 If you use the program to convert ADPs, please cite:
