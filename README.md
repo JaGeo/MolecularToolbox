@@ -65,6 +65,14 @@ If you use the program to calculate the root-mean-square of the Cartesian Displa
 - J. van de Streek, M. A. Neumann, *Acta Cryst. B*, **2010**, *66*, 544–558.
 - J. George, V. L. Deringer, R. Dronskowski, *Inorg. Chem.*, **2015**, *54*, 956–962.
 
+Versions 
+-------
+- 1.0.0 (February 2016): First Molecular-Toolbox version is released! 
+- 1.0.1 (September 2016): Compatible with Phonopy 1.11.2.
+- 1.0.2 (April 2017): RMS of van de Streek and Neumann is included 
+                      Further safety checks are included in the RMS calculation 
+                      ADP transformation starting from $U_{\mathrm{cart}}$ is included    
+
 
 Information about the Author
 --------
