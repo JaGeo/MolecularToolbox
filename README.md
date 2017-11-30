@@ -69,7 +69,6 @@ Versions
 - 1.0.0 (February 2016): First Molecular-Toolbox version is released! 
 - 1.0.1 (September 2016): Compatible with Phonopy 1.11.2.
 - 1.0.2 (April 2017): 
-
 * RMS of van de Streek and Neumann is included 
 * Further safety checks are included in the RMS calculation 
 * ADP transformation starting from Ucart is included    
