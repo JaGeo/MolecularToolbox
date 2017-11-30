@@ -28,8 +28,7 @@ How to install the MATLAB Toolbox
 - Browse with MATLAB's explorer to the folder with the Molecular-Toolbox files.
 - Double click on the **Molecular-Toolbox.mltbx**-file.
 - Click **Install**.
-- Check whether the Molecular-Toolbox is correctly installed. 
-- This is done by going to the **Home** tab, then switching to the **Environment** section, clicking on the **Add-Ons** icon and finally selecting **Manage Add-Ons**.
+- Check whether the Molecular-Toolbox is correctly installed: this is done by going to the **Home** tab, then switching to the **Environment** section, clicking on the **Add-Ons** icon and finally selecting **Manage Add-Ons**.
 - Run the scripts within the Matlab GUI or in the shell by typing:
   `matlab -nodisplay < NameOfTheScript.m`
 
