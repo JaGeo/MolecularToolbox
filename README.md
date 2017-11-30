@@ -5,8 +5,7 @@
 Features of the Toolbox
 ----------
 1. Conversion of Anisotropic Displacement Parameters to Different Parametrizations
-![pic](https://github.com/JaGeo/MolecularToolbox/blob/master/Doc/Piktogramm-01.png){:height="20%" width="20%"}
-
+<img src="https://github.com/JaGeo/MolecularToolbox/blob/master/Doc/Piktogramm-01.png" width="40" height="400">
 2. Calculation of the Root-Mean-Square of the Cartesian Displacements
 ![pic](https://github.com/JaGeo/MolecularToolbox/blob/master/Doc/Piktogramm-02.png){:height="20%" width="20%"}
 
