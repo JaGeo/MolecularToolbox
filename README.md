@@ -14,7 +14,7 @@ Have a look at [Doc/Documentation.pdf](https://github.com/JaGeo/MolecularToolbox
 
 How to install the MATLAB Toolbox
 -------------
-
+- Download the **Molecular-Toolbox.mltbx**-file
 - Open your MATLAB. Please use version 2015a or newer.
 - Browse with MATLAB's explorer to the folder with the Molecular-Toolbox files.
 - Double click on the **Molecular-Toolbox.mltbx**-file.
@@ -22,8 +22,14 @@ How to install the MATLAB Toolbox
 - Check whether the Molecular-Toolbox is correctly installed. 
 - This is done by going to the **Home** tab, then switching to the **Environment** section, clicking on the **Add-Ons** icon and finally selecting **Manage Add-Ons**.
 - Run the scripts within the Matlab GUI or in the shell by typing:
-  ' matlab -nodisplay < NameOfTheScript.m '
+  `matlab -nodisplay < NameOfTheScript.m`
 
+How to use the scripts
+----------------------
+- Download a script from the **Example** folder (choose according to task)
+- Adapt the filenames and temperatures in the scripts (names for *POSCAR* files and *thermal_displacement_matrices.yaml*)
+- Run the scripts within the Matlab GUI or in the shell by typing:
+  `matlab -nodisplay < NameOfTheScript.m`
 
 
 What to cite
