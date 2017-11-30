@@ -16,7 +16,7 @@ This is all done according to: R. W. Grosse-Kunstleve and P. D. Adams, *J. Appl.
 <img src="https://github.com/JaGeo/MolecularToolbox/blob/master/Doc/Piktogramm-02.png" width="40%" height="40%">
 
 Moreover, this toolbox can also calculate the root-mean-square of the Cartesian displacements as defined in
-- J. George, V. L. Deringer, R. Dronskowski,*Inorg. Chem.*, **2015**, *54*, 956–962.
+- J. George, V. L. Deringer, R. Dronskowski, *Inorg. Chem.*, **2015**, *54*, 956–962.
 - J. van de Streek, M. A. Neumann,  *Acta Cryst. B*, **2010**, *66*,  544–558.
 
 
