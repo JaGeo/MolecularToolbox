@@ -8,11 +8,17 @@ Features of the Toolbox
 <img src="https://github.com/JaGeo/MolecularToolbox/blob/master/Doc/Piktogramm-01.png" width="40%" height="40%">
 
 This toolbox can convert anisotropic displacement parameters calculated with [Phonopy](https://atztogo.github.io/phonopy/) referring to a Cartesian coordinate system (Ucart) to Ucif, B, U\*, Beta, Ui and Ueq. Moreover, Ucart, Ucif, B, U* and Beta from literature can be converted to Ucif, B, U\* and Beta. 
-This is all done according to: R. W. Grosse-Kunstleve and P. D. Adams,*J. Appl. Crystallogr.*, **2002**, *35*, 477–480. This article also includes the nomenclature of the different parametrizations.
+
+This is all done according to: R. W. Grosse-Kunstleve and P. D. Adams, *J. Appl. Crystallogr.*, **2002**, *35*, 477–480. This article also includes the nomenclature of the different parametrizations.
 
 
 **2. Calculation of the Root-Mean-Square of the Cartesian Displacements**
 <img src="https://github.com/JaGeo/MolecularToolbox/blob/master/Doc/Piktogramm-02.png" width="40%" height="40%">
+
+Moreover, this toolbox can also calculate the root-mean-square of the Cartesian displacements as defined in
+- J. George, V. L. Deringer, R. Dronskowski,*Inorg. Chem.*, **2015**, *54*, 956–962.
+- J. van de Streek, M. A. Neumann,  *Acta Cryst. B*, **2010**, *66*,  544–558.
+
 
 
 How to install the MATLAB Toolbox
