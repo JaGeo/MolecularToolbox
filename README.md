@@ -66,7 +66,7 @@ If you use the program to calculate the root-mean-square of the Cartesian displa
 - J. van de Streek, M. A. Neumann, *Acta Cryst. B*, **2010**, *66*, 544–558.
 - J. George, V. L. Deringer, R. Dronskowski, *Inorg. Chem.*, **2015**, *54*, 956–962.
 
-If you use the program, please always cite: Janine George, & Richard Dronskowski. (2017, November 30). Molecular Toolbox (Version 1.0.2). Zenodo. [http://doi.org/10.5281/zenodo.1069052](http://doi.org/10.5281/zenodo.1069052)
+If you use the program, please always cite: Janine George, & Richard Dronskowski. (2017, November 30). Molecular Toolbox (Version 1.0.2). Zenodo. [http://doi.org/10.5281/zenodo.1069052](http://doi.org/10.5281/zenodo.1069052) ([BibTeX](https://zenodo.org/record/1069052/export/hx))
 
 
 Versions 
