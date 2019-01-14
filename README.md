@@ -87,7 +87,7 @@ Todo
 Information about the Author
 --------
 
-- J. George (RWTH Aachen University)
+- J. George (RWTH Aachen University, now: Université catholique de Louvain)
 - PI during the development of the code: [R. Dronskowski, RWTH Aachen University](http://www.ssc.rwth-aachen.de/)
 
 Have a look at our project website for the calculation of thermal ellipsoids: [www.ellipsoids.de](http://www.ellipsoids.de)!
